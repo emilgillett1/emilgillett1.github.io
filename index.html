@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil - Researcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Emil</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="section">
+            <div class="about-content">
+                <div class="profile-section">
+                    <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+                    <div class="contact-info">
+                        <h1>Your Name</h1>
+                        <p class="title">PhD Researcher</p>
+                        <p class="affiliation">University of Illinois at Urbana-Champaign</p>
+                        <div class="contact-links">
+                            <a href="mailto:your.email@illinois.edu">✉️ Email</a>
+                            <a href="https://scholar.google.com/YOUR_PROFILE" target="_blank">🎓 Google Scholar</a>
+                            <a href="https://github.com/YOUR_USERNAME" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>
+                        I am a researcher at the University of Illinois at Urbana-Champaign, working on 
+                        <strong>6D single-molecule orientation and localization microscopy (6D-SMOLM)</strong>. 
+                        My research focuses on developing deep learning frameworks that combine multiple neural 
+                        networks to simultaneously determine both 3D spatial positions and 3D orientations of 
+                        fluorescent molecules.
+                    </p>
+                    <p>
+                        I develop custom microscopy systems using double-helix point spread functions and 
+                        polarization-resolved detection, coupled with advanced computational methods for 
+                        super-resolution imaging and molecular orientation analysis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Research</h2>
+            <div class="research-interests">
+                <h3>Research Interests</h3>
+                <ul>
+                    <li>6D Single-Molecule Localization and Orientation Microscopy</li>
+                    <li>Deep Learning for Super-Resolution Microscopy</li>
+                    <li>Phase Mask Optimization and Point Spread Function Engineering</li>
+                    <li>Fluorescence Microscopy and Photophysics</li>
+                    <li>Ion Exchange Membrane Characterization</li>
+                </ul>
+            </div>
+
+            <div class="research-projects">
+                <h3>Current Projects</h3>
+                
+                <div class="project">
+                    <h4>Deep Learning Framework for 6D-SMOLM</h4>
+                    <p>
+                        Developing mDeep-SMOLM and mDeepSTORM3D frameworks that combine multiple neural 
+                        networks to extract full 6D information (x, y, z, θ, φ, ψ) from single-molecule 
+                        fluorescence images using custom double-helix PSF and polarization detection.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h4>Phase Mask Optimization</h4>
+                    <p>
+                        Created fast Variance Upper Bound method achieving 1,000,000x speedup over traditional 
+                        Cramér-Rao Lower Bound computation, with gradient-based optimization to address 
+                        angular degeneracy issues in orientation determination.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h4>Single-Molecule Studies of Ion Exchange Membranes</h4>
+                    <p>
+                        Using advanced fluorescence microscopy techniques to study transport mechanisms and 
+                        fouling dynamics in ion exchange membranes for energy and separation applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Publications</h2>
+            <div class="publications-list">
+                <div class="publication">
+                    <p class="pub-title">Your Publication Title Here</p>
+                    <p class="pub-authors"><strong>Your Name</strong>, Co-author 1, Co-author 2</p>
+                    <p class="pub-venue"><em>Journal Name</em>, Year</p>
+                    <div class="pub-links">
+                        <a href="#">[PDF]</a>
+                        <a href="#">[DOI]</a>
+                        <a href="#">[Code]</a>
+                    </div>
+                </div>
+
+                <div class="publication">
+                    <p class="pub-title">Another Publication Title</p>
+                    <p class="pub-authors">Co-author 1, <strong>Your Name</strong>, Co-author 2</p>
+                    <p class="pub-venue"><em>Conference Name</em>, Year</p>
+                    <div class="pub-links">
+                        <a href="#">[PDF]</a>
+                        <a href="#">[arXiv]</a>
+                    </div>
+                </div>
+
+                <!-- Add more publications as needed -->
+            </div>
+        </section>
+
+        <section id="cv" class="section">
+            <h2>Curriculum Vitae</h2>
+            <div class="cv-content">
+                <div class="cv-section">
+                    <h3>Education</h3>
+                    <div class="cv-item">
+                        <p class="cv-degree">Ph.D. in Chemical Engineering (Expected)</p>
+                        <p class="cv-institution">University of Illinois at Urbana-Champaign</p>
+                        <p class="cv-year">20XX - Present</p>
+                    </div>
+                    <div class="cv-item">
+                        <p class="cv-degree">B.S. in Chemical Engineering</p>
+                        <p class="cv-institution">Your Undergraduate Institution</p>
+                        <p class="cv-year">20XX - 20XX</p>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Skills</h3>
+                    <p><strong>Programming:</strong> MATLAB, Python, Deep Learning Frameworks</p>
+                    <p><strong>Microscopy:</strong> Fluorescence Microscopy, Super-Resolution Imaging, Custom Optical Systems</p>
+                    <p><strong>Analysis:</strong> Image Processing, Single-Molecule Analysis, Statistical Methods</p>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Awards & Honors</h3>
+                    <ul>
+                        <li>Award Name, Institution, Year</li>
+                        <li>Fellowship Name, Institution, Year</li>
+                    </ul>
+                </div>
+
+                <a href="cv.pdf" class="cv-download" target="_blank">Download Full CV (PDF)</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. Last updated: January 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
